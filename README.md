@@ -1,8 +1,29 @@
-# React + Vite
+# 🎓 Learning Management System (LMS)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern web-based Learning Management System built using the MERN stack. This project helps manage users, courses, progress tracking, and more with a clean and responsive UI.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🔐 Authentication & User Management with Clerk
+- 🎥 Embedded YouTube video support for lessons
+- ⭐ Course rating and feedback
+- 📝 Rich text editor for lessons using Quill
+- 📊 Progress tracking with animated bars
+- ⚡ Built using Vite + React + Tailwind CSS
+- 🌐 Fully responsive and fast
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React, Vite, Tailwind CSS
+- **Authentication:** Clerk
+- **Routing:** React Router DOM
+- **State Management:** Local state / context
+- **Deployment:** Vercel (recommended)
+
+## 📦 Installation
+
+```bash
+git clone https://github.com/kishan-pravinbhai-panchal/LEARNING_MANAGEMENT_SYSTEM.git
+cd LEARNING_MANAGEMENT_SYSTEM/client
+npm install
+npm run dev
